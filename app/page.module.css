@@ -1,0 +1,31 @@
+.main {
+  background-color: #000;
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+.main div {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-content: center;
+  padding-inline: 25%;
+  z-index: 2;
+}
+.main h1 {
+  margin-block: 2em;
+  font-size: 4em;
+  margin-inline: auto;
+  color: #ededed;
+  z-index: 2;
+}
+.main p {
+  z-index: 2;
+  font-weight: 700;
+  color: #ededed;
+}
+.main img {
+  object-fit: cover;
+}
